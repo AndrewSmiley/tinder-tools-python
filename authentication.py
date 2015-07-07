@@ -1,6 +1,6 @@
 __author__ = 'smileya'
 import requests
-
+from urls import LOGIN_URL
 
 class Authenticator:
     ##on init, let's try to authenticate
@@ -19,5 +19,6 @@ class Authenticator:
         #auth request
 
 
-
-
+    def login(self):
+        r = requests.post(LOGIN_URL, data={"facebook_token": self.access_token, "facebook_id": self.user_id})
+        print(r.status_code, r.reason, r.text)

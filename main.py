@@ -1,10 +1,12 @@
 __author__ = 'smileya'
 from messaging import Message
 import urls
+# https://www.facebook.com/connect/login_success.html#access_token=CAAGm0PX4ZCpsBALwuoU7TPw5XzoW3dA9GF8sZBFKICvmeh3PcMitTKZBeiYIDsqK42aeRcLmvsGx4YZAel6B8WSCqc3neN0MqeScX4YqWu5DkwtZBZBAh7Rx6hIimZA00x329aFX952JMAZAK9qrddn2jqCLW5IcBx6hixJmkMNV6jYXb83hvZBOnCosxMotxnt5sHH6NDZAzZBdZCoSOXhmx2jD&expires_in=6113
 # https://www.facebook.com/connect/login_success.html#access_token=CAAGm0PX4ZCpsBAPS7Om0cZCyK0Oqw3IZABvTD48KT9amE8SiC9SZCHhvvTQVQjqwpINVfySZAn98yGqRy6A3d17hhlFiHDwamCwGutoI1Ck8iXGVPsr49v1akqz3KIoA7UqAD8W8u5zECLqciTYSelwae3aVPpBob17bwDssn2AZCJMjCemJwkIQDbTqlr9GEN3ix7kIReLaYBJarg90uY&expires_in=5297
-# ok so we'll need an access token and user ID
+# ok so we'll need an access token and user ID andrew.smiley.90
 
 
 
 
-# so let's try to send a bas
+# so let's try to send a basic request
+#guess we should commit too
